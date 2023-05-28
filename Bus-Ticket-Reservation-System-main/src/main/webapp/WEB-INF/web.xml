@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+ 
+
+ <servlet>
+ 	<servlet-name>cusReg</servlet-name>
+ 	<servlet-class>com.customer.CustomerRegister</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>cusReg</servlet-name>
+ 	<url-pattern>/register</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+ 
+ <servlet>
+ 	<servlet-name>viewCus</servlet-name>
+ 	<servlet-class>com.customer.customerProfileServlet</servlet-class>
+ </servlet>
+<servlet-mapping>
+ 	<servlet-name>viewCus</servlet-name>
+ 	<url-pattern>/view</url-pattern>
+</servlet-mapping>
+ 
+
+ 
+ 
+ 
+ <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.customer.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/cusLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+ 
+<servlet>
+	<servlet-name>updateCustomer</servlet-name>
+	<servlet-class>com.customer.updateCustomerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>updateCustomer</servlet-name>
+	<url-pattern>/updateCus</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>updateVehicle</servlet-name>
+	<servlet-class>com.Manager.UpdateVehicleServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>updateVehicle</servlet-name>
+	<url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+
+  
+  
+  
+  
+<servlet>
+	<servlet-name>deleteCustomer</servlet-name>
+	<servlet-class>com.customer.deleteCustomerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>deleteCustomer</servlet-name>
+	<url-pattern>/deletecus</url-pattern>
+</servlet-mapping>
+  
+  
+  
+ <servlet>
+ 	<servlet-name>driverLogin</servlet-name>
+ 	<servlet-class>com.customer.DriverLoginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>driverLogin</servlet-name>
+	<url-pattern>/driverLogin</url-pattern> 
+ </servlet-mapping>
+  
+  
+ <servlet>
+ 	<servlet-name>staffLogin</servlet-name>
+ 	<servlet-class>com.customer.StaffLoginServlet</servlet-class>
+ </servlet>
+<servlet-mapping>
+	<servlet-name>staffLogin</servlet-name>
+	<url-pattern>/staffLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>addvehicle</servlet-name>
+<servlet-class>com.Manager.vehicleAddServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>addvehicle</servlet-name>
+<url-pattern>/insert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>vehicleView</servlet-name>
+<servlet-class>com.Manager.viewServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>vehicleView</servlet-name>
+<url-pattern>/viewVehicle</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name> addRoute</servlet-name>
+<servlet-class>com.Manager.RouteAddServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>addRoute</servlet-name>
+<url-pattern>/add</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>timeAdd</servlet-name>
+<servlet-class>com.Manager.AddTimeServlet</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>timeAdd</servlet-name>
+<url-pattern>/AddTime</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>editTime</servlet-name>
+<servlet-class>com.Manager.EditTimeTableServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>editTime</servlet-name>
+<url-pattern>/Edit</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>updateTime</servlet-name>
+<servlet-class>com.Manager.UpdateTimeServlet</servlet-class>
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>updateTime</servlet-name>
+<url-pattern>/updateTime</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>deleteTime</servlet-name>
+<servlet-class>com.Manager.DeleteTimeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>deleteTime</servlet-name>
+<url-pattern>/deleteTime</url-pattern>
+</servlet-mapping>
+
+     <!-- thiwanka -->
+     
+<servlet>
+	<servlet-name>insertManager</servlet-name>
+	<servlet-class>com.admin.insertManager</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>insertManager</servlet-name>
+	<url-pattern>/insertNewManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>viewManager</servlet-name>
+	<servlet-class>com.admin.viewManagerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>viewManager</servlet-name>
+	<url-pattern>/viewManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>updateManager</servlet-name>
+	<servlet-class>com.admin.updateManagerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>updateManager</servlet-name>
+	<url-pattern>/updateMan</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteManagerServlet</servlet-name>
+	<servlet-class>com.admin.DeleteManagerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>DeleteManagerServlet</servlet-name>
+	<url-pattern>/DeleteManager</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>deleteVehicle</servlet-name>
+<servlet-class>com.Manager.DeleteVehicleServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>deleteVehicle</servlet-name>
+<url-pattern>/deleteVehicle</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DriverForm</servlet-name>
+<servlet-class>com.Driver.DriverServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DriverForm</servlet-name>
+<url-pattern>/insertDriver</url-pattern>
+ </servlet-mapping>  
+ 
+ <servlet>
+<servlet-name>DriverView</servlet-name>
+<servlet-class>com.Driver.DriverViewservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DriverView</servlet-name>
+<url-pattern>/viewDriver</url-pattern>
+ </servlet-mapping> 
+ 
+ <servlet>
+<servlet-name>updateDriver</servlet-name>
+<servlet-class>com.Driver.updateservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>updateDriver</servlet-name>
+<url-pattern>/updateDriver</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+<servlet-name>deleteDriver</servlet-name>
+<servlet-class>com.Driver.Delete_driver</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>deleteDriver</servlet-name>
+<url-pattern>/deleteDriver</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+<servlet-name>viewSalary</servlet-name>
+<servlet-class>com.Driver.showSalary</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>viewSalary</servlet-name>
+<url-pattern>/viewSalary</url-pattern>
+ </servlet-mapping>
+ 
+ 
+
+<servlet>
+<servlet-name>logout</servlet-name>
+<servlet-class>com.customer.logout</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>logout</servlet-name>
+<url-pattern>/logoutEND</url-pattern>
+</servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>selectSeat</servlet-name>
+	<servlet-class>com.customer.selectRouteServlet</servlet-class> 
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>selectSeat</servlet-name>
+ 	<url-pattern>/routeSelectBook</url-pattern>
+ 
+ </servlet-mapping>
+ 
+ 
+ 
+ 
+       
+</web-app>
+
+
+
+
+
+
+
+

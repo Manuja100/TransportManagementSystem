@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+body{
+    background-color: #16425B;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbarTemp{
+    width: 100%;
+    height: 150px;
+    background-color: #16425B;
+}
+
+.bgImg{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.bgImg img{
+    width: 100%;
+    height: auto;
+    filter: blur(2.5px);
+    object-fit: cover; 
+    
+}
+
+.supportBanner{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    margin-top: -30px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-size: 17px;
+}
+
+.supportBanner h1{
+    padding: 10px;
+}
+
+
+
+.questions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.lineAfterQuestion{
+    width: 90%;
+    margin: auto;
+  
+}
+
+.question{
+    color: black;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 96%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.answer{
+    margin: auto;
+    width: 60%; 
+    padding: auto;
+}
+
+
+.question:hover {
+    background-color: #F9F9F9;
+}
+
+
+.answer {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.question::after {
+    font-size: 15px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+
+.moreHelpBox{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.moreHelp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.clickContact{
+    color:#16425B;
+    
+}
+
+.clickContact a{
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color:  #16425B;
+    margin-top:10%;
+}

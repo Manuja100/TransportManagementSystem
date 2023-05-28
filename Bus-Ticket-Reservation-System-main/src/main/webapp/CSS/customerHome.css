@@ -1,0 +1,112 @@
+body{
+    background-color: #16425B;
+    margin: 0;
+    padding: 0;
+}
+
+
+.welcome_msg{
+    background-color: white;
+    width: 20%;
+    height: 7%;
+    position:relative;
+    margin-left: 100px;
+    margin-top:100px; 
+}
+
+
+.button {
+    background-color: #808080; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 87%;
+    font-size: 20px; 
+    font-weight: bold;
+  }
+
+
+  .link_profile{
+    text-decoration: none;
+}
+
+.link_profile a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#submitRouteBtn{
+	
+	font-size:20px;
+	
+}
+
+
+
+.button2{
+	width:150px;
+    background-color: #808080; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 70%;
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+
+.route-selection{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(163, 163, 163);
+    
+    margin:auto;
+    margin-top:10%;  
+    box-sizing: border-box;
+}
+
+.route-selection h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Drop down selct route*/
+
+
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20%;
+    height: 10%;
+    font-size: 20px;
+  }
+
+
+select {
+    margin-bottom: 70px;
+    margin-top: 10px;
+  }
+.select-route-dropdown{
+    font-size: 30px;
+    margin-left:30%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+

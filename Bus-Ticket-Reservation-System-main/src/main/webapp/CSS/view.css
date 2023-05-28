@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+body { 
+		background-image:linear-gradient(to right, #3A7CA5,#81C3D7,#D9DCD6);
+		margin: 0;
+		padding: 0;
+		}		
+						  
+.container{
+		padding-top: 40px;
+		padding-bottom: 15%;
+		width:auto;
+						   
+			}
+			
+						
+.form-container {
+		max-width: 50%;
+		background-color:transparent;
+		}
+									
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			border: none;
+			background: #f1f1f1;
+		}
+									
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+			background-color:#4CAF50;;
+			outline-style: solid;
+			}
+									
+.container-5{
+			width:50%;
+			height:auto;
+			margin-top: 15%;
+			margin-left:20% ;
+			margin-right:20%;   
+				}
+															
+						
+								
+.cancel {
+			background-color: red;
+			border: none;
+			cursor: pointer;
+			width: 50%;
+			opacity: 0.8;
+			font-size: 28px;
+			color: white;
+				}
+					
+/* Set a style for the submit/login button */
+.submit {
+			background-color:  #04AA6D;
+			border: none;
+			cursor: pointer;
+			width: 50%;
+			opacity: 0.8;
+			font-size: 28px;
+			color: white;
+								  
+								
+								
+			}

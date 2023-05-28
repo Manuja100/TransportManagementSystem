@@ -1,0 +1,10 @@
+.input-box.button input{
+    color:black;
+    letter-spacing: 1px;
+    border: none;
+    background: white;
+    cursor: pointer;
+  }
+  .input-box.button input:hover{
+    background: #8c8c8c;
+  }

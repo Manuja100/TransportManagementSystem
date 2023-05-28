@@ -1,0 +1,108 @@
+body{
+    background-color: #16425B;
+    margin: 0;
+    padding: 0;
+    margin:50px auto; width:600px;
+}
+
+
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+  
+form{
+    width: 350px;
+    margin: 0 auto;
+    
+}
+  
+form input{
+    padding: 10px;
+}
+
+
+input .half{
+    width: 165px;
+    float: left;
+    
+    }
+      
+ 
+input{
+    color: dark-gray;
+    width: 100%;
+}
+    
+.button {
+    border-radius: 4px;
+    background-color: grey;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 50px;
+    margin-left: -1px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+    
+.label{
+    color:white;
+    font-size: 25px;
+}
+
+
+.selectNumberOfSeats{
+    width: 20%;
+    height: 30px;
+
+}
+
+
+.selectSeats{
+
+    display:flexbox;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ammountLabel{
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+}
